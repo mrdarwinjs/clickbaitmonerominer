@@ -38,7 +38,7 @@ print(g_art)
 
 print(Fore.RED, "Program will start in 10 seconds", Style.RESET_ALL)
         
-for i in track(range(1), description="Time Left"): #default value is 10
+for i in track(range(10), description="Time Left"): #default value is 10
     time.sleep(1)
 
 
